@@ -1,6 +1,6 @@
 library(tidyverse)
 library(deSolve)
-###Define model eqns rstudio staged
+###Define model eqns rstudio stagedagain
 vector_human <- function(t,x,parms) {
   
   with(as.list(c(parms, x)), {
