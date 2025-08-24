@@ -1,6 +1,6 @@
 library(tidyverse)
 library(deSolve)
-###Define model eqns rstudio stagedagain
+###Define model eqns SILUNGCOMMIT
 vector_human <- function(t,x,parms) {
   
   with(as.list(c(parms, x)), {
