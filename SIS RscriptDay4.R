@@ -1,6 +1,6 @@
 library(tidyverse)
 library(deSolve)
-###Define model eqns 24/08/20254
+###Define model eqns rstudio staged
 vector_human <- function(t,x,parms) {
   
   with(as.list(c(parms, x)), {
@@ -38,10 +38,10 @@ start <- c(
   I=1000
 )
 
-###Define parameters
+###Define parameters in this model
 
 parms <- c(
-  mu_u = 1/15,
+  mu_u = 1/50,
   alpha=0.12,
   beta=0.25,
   gamma = 1/20
